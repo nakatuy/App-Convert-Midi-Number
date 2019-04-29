@@ -1,1 +1,1 @@
-web: gunicorn -b 0.0.0.0:$PORT Convert-Midi-Number:app
+web: python Convert-Midi-Number.py
